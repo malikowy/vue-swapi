@@ -51,6 +51,7 @@
 					return film.title.toLowerCase().includes(this.search.toLowerCase()) || film.director.toLowerCase().includes(this.search.toLowerCase())
 				})
 			}
+//			działanie: sprawdza czy pole title lub director zawiera znaki z pola search i wyświetla tylko te z pasującymi znakami
 		}
 	}
 </script>
